@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.smile{
+    border-radius: 50%;
+    height: 600px;
+    width: 600px;
+    background-color: yellow;
+    position: relative;
+    margin: 20px auto;
+    position: relative;
+}
+
+.lefteye{
+    border-radius: 50%;
+    background-color: black;
+    height: 60px;
+    width: 60px;
+    top: 130px;
+    left: 170px;
+    position: absolute;
+}
+
+.righteye{
+    border-radius: 50%;
+    background-color: black;
+    height: 60px;
+    width: 60px;
+    top: 130px;
+    right: 170px;
+    position: absolute;
+}
+
+.mouth{
+    background-color: black;
+    height: 20px;
+    width: 200px;
+    top: 300px; 
+    left: 190px;
+    
+    position: absolute;
+    
+}
